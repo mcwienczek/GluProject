@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GluWebsite", "GluWebsite\GluWebsite.csproj", "{13055164-F9E5-4230-A225-E75CC9C9C634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GluWebsite.Tests", "GluWebsite.Tests\GluWebsite.Tests.csproj", "{73B184DC-23FF-410B-8C40-6BB376B713C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GluServiceLibrary", "GluService\GluServiceLibrary.csproj", "{15B3E0D2-6217-493A-A690-158C497F5318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GluServiceHost", "GluServiceHost\GluServiceHost.csproj", "{3C05CFE8-457D-4BA5-89C1-6DF7D0743561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GluRepository", "GluRepository\GluRepository.csproj", "{973CAC32-20D7-44EB-B4B5-2E42487ACD55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GluServiceLibrary.Interfaces", "GluServiceLibrary.Interfaces\GluServiceLibrary.Interfaces.csproj", "{7F2BEC84-55DD-4380-878A-D622FAA1AB57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13055164-F9E5-4230-A225-E75CC9C9C634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13055164-F9E5-4230-A225-E75CC9C9C634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13055164-F9E5-4230-A225-E75CC9C9C634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13055164-F9E5-4230-A225-E75CC9C9C634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B184DC-23FF-410B-8C40-6BB376B713C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B184DC-23FF-410B-8C40-6BB376B713C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B184DC-23FF-410B-8C40-6BB376B713C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B184DC-23FF-410B-8C40-6BB376B713C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C05CFE8-457D-4BA5-89C1-6DF7D0743561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C05CFE8-457D-4BA5-89C1-6DF7D0743561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C05CFE8-457D-4BA5-89C1-6DF7D0743561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C05CFE8-457D-4BA5-89C1-6DF7D0743561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{973CAC32-20D7-44EB-B4B5-2E42487ACD55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973CAC32-20D7-44EB-B4B5-2E42487ACD55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973CAC32-20D7-44EB-B4B5-2E42487ACD55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973CAC32-20D7-44EB-B4B5-2E42487ACD55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F2BEC84-55DD-4380-878A-D622FAA1AB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F2BEC84-55DD-4380-878A-D622FAA1AB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F2BEC84-55DD-4380-878A-D622FAA1AB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F2BEC84-55DD-4380-878A-D622FAA1AB57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
