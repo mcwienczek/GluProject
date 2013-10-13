@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GluServiceHost", "GluServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GluRepository", "GluRepository\GluRepository.csproj", "{973CAC32-20D7-44EB-B4B5-2E42487ACD55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GluServiceLibrary.Interfaces", "GluServiceLibrary.Interfaces\GluServiceLibrary.Interfaces.csproj", "{7F2BEC84-55DD-4380-878A-D622FAA1AB57}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GluServiceLibrary.Utils", "GluServiceLibrary.Interfaces\GluServiceLibrary.Utils.csproj", "{7F2BEC84-55DD-4380-878A-D622FAA1AB57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GluDesktop", "GluDesktop\GluDesktop.csproj", "{C156BA19-64AB-422B-B2F6-5047FA71DC61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{7F2BEC84-55DD-4380-878A-D622FAA1AB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F2BEC84-55DD-4380-878A-D622FAA1AB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F2BEC84-55DD-4380-878A-D622FAA1AB57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C156BA19-64AB-422B-B2F6-5047FA71DC61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C156BA19-64AB-422B-B2F6-5047FA71DC61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C156BA19-64AB-422B-B2F6-5047FA71DC61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C156BA19-64AB-422B-B2F6-5047FA71DC61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

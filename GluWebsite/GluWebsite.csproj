@@ -222,9 +222,9 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GluServiceLibrary.Interfaces\GluServiceLibrary.Interfaces.csproj">
+    <ProjectReference Include="..\GluServiceLibrary.Interfaces\GluServiceLibrary.Utils.csproj">
       <Project>{7f2bec84-55dd-4380-878a-d622faa1ab57}</Project>
-      <Name>GluServiceLibrary.Interfaces</Name>
+      <Name>GluServiceLibrary.Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

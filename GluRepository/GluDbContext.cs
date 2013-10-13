@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace GluRepository
 {
-    public class GluDatabase : IGluDatabase
+    class GluDbContext
     {
-        //todo install EF 6.0.0
-
     }
 }
