@@ -6,7 +6,25 @@ using System.Threading.Tasks;
 
 namespace GluRepository
 {
-    class GluFoodRepository : IGluFoodRepository
+    public class GluFoodRepository : IGluFoodRepository
     {
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
+        public List<DbFoodProduct> FindFoodProduct(string productName)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<DbFoodProduct> GetAllFoodProducts()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<DbFoodCategory> GetAllFoodCategory()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

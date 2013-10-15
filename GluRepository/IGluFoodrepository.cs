@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace GluRepository
 {
-    interface IGluFoodrepository : IDisposable
+    public interface IGluFoodRepository : IDisposable
     {
+        List<DbFoodProduct> FindFoodProduct(string productName);
+        List<DbFoodProduct> GetAllFoodProducts();
+        List<DbFoodCategory> GetAllFoodCategory();
+
     }
 }

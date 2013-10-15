@@ -44,16 +44,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbFoodCategory.cs" />
+    <Compile Include="DbFoodProduct.cs" />
     <Compile Include="GluDbContext.cs" />
     <Compile Include="GluFoodRepository.cs" />
     <Compile Include="GluUserRepository.cs" />
     <Compile Include="IGluUserRepository.cs" />
-    <Compile Include="IGluFoodrepository.cs" />
+    <Compile Include="IGluFoodRepository.cs" />
+    <Compile Include="Migrations\201310151453288_initial.cs" />
+    <Compile Include="Migrations\201310151453288_initial.Designer.cs">
+      <DependentUpon>201310151453288_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DbUser.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201310151453288_initial.resx">
+      <DependentUpon>201310151453288_initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
